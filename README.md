@@ -58,8 +58,11 @@ go get -v github.com/it234/goapp
 <details>
 <summary>展开查看</summary>
 <pre><code>.
-<img src="./login.jpeg" width="900" height="600" /><br/>
-<img src="./icon.jpeg" width="900" height="900" /><br/>
+<img src="./login.jpeg" width="900" height="600" /><br/><br/>
+<img src="./icon.jpeg" width="900" height="900" /><br/><br/>
+<img src="./menu.jpeg" width="900" height="900" /><br/><br/>
+<img src="./role.jpeg" width="900" height="900" /><br/><br/>
+<img src="./admins.jpeg" width="900" height="900" /><br/><br/>
 </code></pre>
 </details>
 
