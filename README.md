@@ -46,7 +46,6 @@ go get -v github.com/it234/goapp
 ├── cmd  项目的主要应用
 ├── internal  私有应用程序和库代码
 ├── pkg  外部应用程序可以使用的库代码
-├── scripts  数据库脚本
 ├── vendor  项目依赖的其他第三方库
 ├── website  vue-element-admin
 </code></pre>
