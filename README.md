@@ -36,7 +36,7 @@ go get -v github.com/it234/goapp
 
 ## 前端实现
 
-- website/manageweb：基于[vue-element-admin](github.com/PanJiaChen/vue-element-admin)的实现版本
+- website/manageweb：基于[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)的实现版本
 
 ## 项目结构概览
 
@@ -49,6 +49,18 @@ go get -v github.com/it234/goapp
 ├── scripts  数据库脚本
 ├── vendor  项目依赖的其他第三方库
 ├── website  vue-element-admin
+</code></pre>
+</details>
+
+
+## 界面截图
+
+<details>
+<summary>展开查看</summary>
+<pre><code>.
+<img src="./login.jpeg" width="256" height="256" />
+
+<img src="./icon.jpeg" width="256" height="256" />
 </code></pre>
 </details>
 
