@@ -31,7 +31,7 @@ go get -v github.com/it234/goapp
 
 #### 温馨提醒
 
-1. 默认配置采用的是 sqlite 数据库，数据库文件(`自动生成`)在`cmd/manageweb/data/gadmin.db`。如果想切换为`mysql`或`postgres`，请更改配置文件，并创建数据库（表会自动创建）。
+1. 默认配置采用的是 sqlite 数据库，数据库文件(`自动生成`)在`cmd/manageweb/data/goapp.db`。如果想切换为`mysql`或`postgres`，请更改配置文件，并创建数据库（表会自动创建）。
 2. 日志的配置为标准输出并写入文件。
 
 ## 前端实现
