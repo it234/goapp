@@ -1,0 +1,23 @@
+web:
+    static_path: 
+    port: 8080
+    domain: 127.0.0.1:8080
+    read_timeout: 5
+    write_timeout: 5
+    idle_timeout: 5
+gorm:
+      debug: true
+      db_type: sqlite3
+      max_lifetime: 7200
+      max_open_conns: 150
+      max_idle_conns: 50
+      table_prefix: tb_
+mysql:
+       host: 127.0.0.1
+       port: 3306
+       user: root
+       password: 123456
+       db_name: goapp
+       parameters: charset=utf8&parseTime=True&loc=Asia%2FShanghai
+sqlite3: 
+         path: data/goapp.db
