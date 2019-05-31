@@ -130,34 +130,6 @@ go.uber.org/zap/internal/bufferpool
 go.uber.org/zap/buffer
 go.uber.org/zap/internal/color
 go.uber.org/zap/internal/exit
-# goapp/internal v0.0.0-00010101000000-000000000000 => ./internal
-goapp/internal/app/managedatabase
-goapp/internal/app/managedesktop
-goapp/internal/app/manageweb
-goapp/internal/pkg/models/common
-goapp/internal/pkg/models/sys
-goapp/internal/app/manageweb/config
-goapp/internal/app/manageweb/controllers/common
-goapp/internal/app/manageweb/middleware
-goapp/internal/app/manageweb/routers
-goapp/internal/pkg/config
-goapp/internal/pkg/models
-goapp/internal/pkg/models/db
-goapp/internal/pkg/models/basemodel
-goapp/internal/app/manageweb/controllers/sys
-# goapp/pkg v0.0.0-00010101000000-000000000000 => ./pkg
-goapp/pkg/backup/mysql/other
-goapp/pkg/backup/mysql/other/common
-goapp/pkg/backup/mysql/xorm
-goapp/pkg/logger
-goapp/pkg/util
-goapp/pkg/convert
-goapp/pkg/backup/mysql/other/backUp
-goapp/pkg/file
-goapp/pkg/cache
-goapp/pkg/jwt
-goapp/pkg/backup/mysql/other/db
-goapp/pkg/hash
 # golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c => github.com/golang/crypto v0.0.0-20190506204251-e1dfcc566284
 golang.org/x/crypto/ssh/terminal
 # golang.org/x/sys v0.0.0-20190412213103-97732733099d => github.com/golang/sys v0.0.0-20190416152802-12500544f89f
