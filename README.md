@@ -67,9 +67,7 @@ go get -v github.com/it234/goapp
 
 ## 与作者对话
 
-> 该项目是利用业余时间进行开发的，主要是对golang+vue-element-admin进行一个简单的实现，如果您有更好的想法和建议请与我进行沟通，我非常期待！下面是我的微信二维码：
-
-<img src="./wechat.jpeg" width="256" height="256" />
+> 该项目是利用业余时间进行开发的，主要是对golang+vue-element-admin进行一个简单的实现，如果您有更好的想法和建议请与我进行沟通，我非常期待！我的微信号：it23456789 。
 
 
 
