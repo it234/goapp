@@ -76,7 +76,7 @@ go get -v github.com/it234/goapp
 
 ## MIT License
 
-    Copyright (c) 2019 Lyric
+    Copyright (c) 2019 it234
 
 ## 与作者对话
 
