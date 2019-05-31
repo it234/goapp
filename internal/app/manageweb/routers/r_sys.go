@@ -1,13 +1,12 @@
 package routers
 
 import (
-	"goapp/internal/app/manageweb/controllers/sys"
+	"github.com/it234/goapp/internal/app/manageweb/controllers/sys"
 
 	"github.com/gin-gonic/gin"
 )
 
 func RegisterRouterSys(app *gin.RouterGroup) {
-	//菜单
 	menu := sys.Menu{}
 	app.GET("/menu/list", menu.List)
 	app.GET("/menu/detail", menu.Detail)
@@ -16,14 +15,11 @@ func RegisterRouterSys(app *gin.RouterGroup) {
 	app.POST("/menu/delete", menu.Delete)
 	app.POST("/menu/update", menu.Update)
 	app.POST("/menu/create", menu.Create)
-	//后台用户登录相关
 	user := sys.User{}
 	app.GET("/user/info", user.Info)
-	//app.GET("/user/info2", user.Info2)
 	app.POST("/user/login", user.Login)
 	app.POST("/user/logout", user.Logout)
 	app.POST("/user/editpwd", user.EditPwd)
-	//后台用户
 	admins := sys.Admins{}
 	app.GET("/admins/list", admins.List)
 	app.GET("/admins/detail", admins.Detail)
@@ -32,7 +28,6 @@ func RegisterRouterSys(app *gin.RouterGroup) {
 	app.POST("/admins/update", admins.Update)
 	app.POST("/admins/create", admins.Create)
 	app.POST("/admins/setrole", admins.SetRole)
-	//后台角色
 	role := sys.Role{}
 	app.GET("/role/list", role.List)
 	app.GET("/role/detail", role.Detail)
