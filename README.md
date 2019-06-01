@@ -4,6 +4,7 @@
  基于 Gin + GORM + Casbin + vue-element-admin 实现的权限管理系统 <br/>
  基于Casbin 实现RBAC权限管理 <br/>
  前端实现： vue-element-admin <br/>
+ 在线体验：http://35.241.100.145:5315 <br/>
 </div>
 <br/>
 
