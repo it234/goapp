@@ -43,9 +43,11 @@ func (AdminsRole) SetRole(adminsid uint64, roleids []uint64) error {
 		}
 	}()
 	if err := tx.Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if err := tx.Where(&AdminsRole{AdminsID: adminsid}).Delete(&AdminsRole{}).Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if len(roleids) > 0 {
@@ -54,6 +56,7 @@ func (AdminsRole) SetRole(adminsid uint64, roleids []uint64) error {
 			rm.RoleID = rid
 			rm.AdminsID = adminsid
 			if err := tx.Create(rm).Error; err != nil {
+				tx.Rollback()
 				return err
 			}
 		}

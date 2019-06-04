@@ -43,9 +43,11 @@ func (RoleMenu) SetRole(roleid uint64, menuids []uint64) error {
 		}
 	}()
 	if err := tx.Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if err := tx.Where(&RoleMenu{RoleID: roleid}).Delete(&RoleMenu{}).Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if len(menuids) > 0 {
@@ -54,6 +56,7 @@ func (RoleMenu) SetRole(roleid uint64, menuids []uint64) error {
 			rm.RoleID = roleid
 			rm.MenuID = mid
 			if err := tx.Create(rm).Error; err != nil {
+				tx.Rollback()
 				return err
 			}
 		}

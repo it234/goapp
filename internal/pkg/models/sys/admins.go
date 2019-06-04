@@ -48,12 +48,15 @@ func (Admins) Delete(adminsids []uint64) error {
 		}
 	}()
 	if err := tx.Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if err := tx.Where("id in (?)", adminsids).Delete(&Admins{}).Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	if err := tx.Where("admins_id in (?)", adminsids).Delete(&AdminsRole{}).Error; err != nil {
+		tx.Rollback()
 		return err
 	}
 	return tx.Commit().Error
