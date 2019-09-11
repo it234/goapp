@@ -26,6 +26,4 @@ replace (
 
 require (
 	github.com/jinzhu/gorm v1.9.8
-	goapp/internal v0.0.0-00010101000000-000000000000
-	goapp/pkg v0.0.0-00010101000000-000000000000
 )
