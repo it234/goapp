@@ -23,7 +23,3 @@ replace (
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190502173448-54afdca5d873
 	google.golang.org/grpc => github.com/grpc/grpc-go v1.20.1
 )
-
-require (
-	github.com/jinzhu/gorm v1.9.8
-)
