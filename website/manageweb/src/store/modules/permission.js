@@ -179,5 +179,6 @@ export const componentsMap = {
   Icon: () => import('@/views/svg-icons/index'), // 图标管理
   Menu: () => import('@/views/app/sys/menu'), // 菜单
   Admins: () => import('@/views/app/sys/admins'), // 后台管理员
-  Role: () => import('@/views/app/sys/role') // 后台角色
+  Role: () => import('@/views/app/sys/role'), // 后台角色
+  Test: () => import('@/views/app/sys/test') // test
 }

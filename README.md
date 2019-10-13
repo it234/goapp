@@ -66,6 +66,17 @@ go get -v github.com/it234/goapp
 </code></pre>
 </details>
 
+## Donate
+
+- If you find this project useful, you can buy author a glass of juice 
+- alipay
+- <img src="./img/alipay.jpeg" width="256" height="256" />
+- wechat
+- <img src="./img/wxpay.jpeg" width="256" height="256" />
+- [Buy me a coffee](https://www.buymeacoffee.com/hotion)
+- bitcoin address : 1LwTcCZ1p5kq8UokZGUBVy3BL1wRa3q5Wn
+- eth address : 0x68ca43651529D12996183d09a052a654F845cB89
+- eos address : 123451234534
 
 ## 感谢以下框架的开源支持
 
@@ -73,6 +84,11 @@ go get -v github.com/it234/goapp
 - [GORM] - [http://gorm.io/](http://gorm.io/)
 - [Casbin] - [https://casbin.org/](https://casbin.org/)
 - [vue-element-admin] - [https://github.com/PanJiaChen/vue-element-admin/](https://panjiachen.github.io/vue-element-admin/)
+
+
+## 感谢以下框架的开源支持
+
+- [Gin] - [https://gin-gonic.com/](https://gin-gonic.com/)
 
 
 ## MIT License
