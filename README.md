@@ -87,12 +87,7 @@ go get -v github.com/it234/goapp
 - [Gin] - [https://gin-gonic.com/](https://gin-gonic.com/)
 - [GORM] - [http://gorm.io/](http://gorm.io/)
 - [Casbin] - [https://casbin.org/](https://casbin.org/)
-- [vue-element-admin] - [https://github.com/PanJiaChen/vue-element-admin/](https://panjiachen.github.io/vue-element-admin/)
-
-
-## 感谢以下框架的开源支持
-
-- [Gin] - [https://gin-gonic.com/](https://gin-gonic.com/)
+- [vue-element-admin] - [https://github.com/PanJiaChen/vue-element-admin/](https://github.com/PanJiaChen/vue-element-admin/)
 
 
 ## MIT License
