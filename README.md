@@ -70,9 +70,9 @@ go get -v github.com/it234/goapp
 
 - If you find this project useful, you can buy author a glass of juice 
 - alipay
-- <img src="./img/alipay.jpeg" width="256" height="256" />
+- <img src="./img/alipay.jpg" width="256" height="256" />
 - wechat
-- <img src="./img/wxpay.jpeg" width="256" height="256" />
+- <img src="./img/wxpay.jpg" width="256" height="256" />
 - [Buy me a coffee](https://www.buymeacoffee.com/hotion)
 - bitcoin address : 1LwTcCZ1p5kq8UokZGUBVy3BL1wRa3q5Wn
 - eth address : 0x68ca43651529D12996183d09a052a654F845cB89
