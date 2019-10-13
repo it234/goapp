@@ -73,7 +73,7 @@ go get -v github.com/it234/goapp
 - <img src="./img/alipay.jpg" width="256" height="256" />
 - wechat
 - <img src="./img/wxpay.jpg" width="256" height="256" />
-- [Buy me a coffee](https://www.buymeacoffee.com/hotion)
+- [Buy me a coffee](https://www.buymeacoffee.com/it234)
 - bitcoin address : 1LwTcCZ1p5kq8UokZGUBVy3BL1wRa3q5Wn
 - eth address : 0x68ca43651529D12996183d09a052a654F845cB89
 - eos address : 123451234534
