@@ -26,7 +26,7 @@ go get -v github.com/it234/goapp
 
 - 可以直接下载打包好的桌面客户端体验，下载地址: https://pan.baidu.com/s/1wDsHH-KMQHV5tMRUv50Q3w 提取码: 9u2d 
 - 运行服务端：cd cmd/manageweb，go run main.go，运行成功后打开 127.0.0.1:8080，如果是在windows下操作，需要提前安装并配置好mingw（sqlite的操作库用到），安装方式请自行百度/谷歌。
-- 调试/运行web：cd website/manageweb，npm install，npm run dev
+- 调试/运行web：cd website/manageweb，安装：npm install，运行：npm run dev，打包：npm run build:prod
 - 配置文件在(`cmd/manageweb/config.yaml`)中，用户默认为：admin/123456
 
 
