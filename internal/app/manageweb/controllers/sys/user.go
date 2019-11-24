@@ -88,11 +88,22 @@ func (User) Login(c *gin.Context) {
 
 // 用户登出
 func (User) Logout(c *gin.Context) {
-	// 删除缓存
-	uuid, exists := c.Get(common.USER_UUID_Key)
-	if exists {
-		cache.Del([]byte(convert.ToString(uuid)))
+	t := c.GetHeader(common.TOKEN_KEY)
+	if t == "" {
+		common.ResFail(c, "操作失败")
+		return
 	}
+	u,ok:=jwt.ParseToken(t)
+	if !ok {
+		common.ResFail(c, "操作失败")
+		return
+	}
+	cid:=u["uuid"]
+	if cid == "" {
+		common.ResFail(c, "操作失败")
+		return
+	}
+	cache.Del([]byte(cid))
 	common.ResSuccessMsg(c)
 }
 
