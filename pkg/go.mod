@@ -1,4 +1,4 @@
-module github.com/it234/goapp/pkg
+module goapp/pkg
 
 go 1.12
 

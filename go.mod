@@ -1,11 +1,11 @@
-module github.com/it234/goapp
+module goapp
 
 go 1.12
 
 replace (
 	cloud.google.com/go => github.com/GoogleCloudPlatform/google-cloud-go v0.38.0
-	github.com/it234/goapp/internal => ./internal
-	github.com/it234/goapp/pkg => ./pkg
+	goapp/internal => ./internal
+	goapp/pkg => ./pkg
 	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20190506204251-e1dfcc566284
 	golang.org/x/exp => github.com/golang/exp v0.0.0-20190429183610-475c5042d3f1
 	golang.org/x/image => github.com/golang/image v0.0.0-20190501045829-6d32002ffd75
@@ -22,4 +22,9 @@ replace (
 	google.golang.org/appengine => github.com/golang/appengine v1.5.0
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190502173448-54afdca5d873
 	google.golang.org/grpc => github.com/grpc/grpc-go v1.20.1
+)
+
+require (
+	goapp/internal v0.0.0-00010101000000-000000000000
+	goapp/pkg v0.0.0-00010101000000-000000000000 // indirect
 )

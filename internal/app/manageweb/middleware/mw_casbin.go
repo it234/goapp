@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/it234/goapp/internal/app/manageweb/controllers/common"
-	"github.com/it234/goapp/pkg/convert"
+	"goapp/internal/app/manageweb/controllers/common"
+	"goapp/pkg/convert"
 
 	"github.com/gin-gonic/gin"
 )
