@@ -1,7 +1,7 @@
 package main
 
 import(
-	"goapp/internal/app/manageweb"
+	"github.com/it234/goapp/internal/app/manageweb"
 )
 
 func main(){

@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"goapp/internal/app/manageweb/controllers/sys"
+	"github.com/it234/goapp/internal/app/manageweb/controllers/sys"
 
 	"github.com/gin-gonic/gin"
 )
